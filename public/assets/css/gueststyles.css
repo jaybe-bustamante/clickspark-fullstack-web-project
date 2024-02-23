@@ -1,0 +1,85 @@
+/* Guest layout */
+
+body {
+    background-image: url(/img/mid-bg.png);
+    background-size: 100dvw;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    /* put background image to the bottom */
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.guestlogo {
+    max-width: 80px;
+}
+
+.button-1 {
+    background-color: #671cd1 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 12px !important;
+    padding: 12px 16px !important;
+    font-size: 0.9rem !important;
+    font-weight: medium !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-1:hover {
+    background-color: #4b07ab !important;
+    color: white !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-2 {
+    background-color: #90e901 !important;
+    color: #40206e !important;
+    border: none !important;
+    border-radius: 70px !important;
+    padding: 8px 26px !important;
+    font-size: 0.9rem !important;
+    font-weight: medium !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-2:hover {
+    background-color: #aafc26 !important;
+    color: #40206e !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.ch60 {
+    max-width: 55ch;
+    margin-inline: auto;
+}
+
+.undline{
+    text-decoration: underline;
+    text-decoration-color: #98e901;
+    text-decoration-thickness: 0.12em;
+    text-underline-offset: 0.3em;
+}
+
+.cs-font {
+    color: #40206e !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif !important;
+    color: #40206e !important;
+}
+
+.form-control:focus {
+    border-color: #671cd182;
+    box-shadow: 0 0 0 0.2rem #671cd145;
+}
+
+.form-check-input:checked {
+    background-color: #671cd1;
+    border-color: #671cd1;
+}
+
+.errortxt {
+    color: red;
+    font-size: 0.80rem !important;
+}
