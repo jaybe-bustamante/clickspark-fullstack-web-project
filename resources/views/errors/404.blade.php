@@ -1,6 +1,6 @@
-<x-main-layout>
+<x-error-layout>
     <x-slot name="title">
-        404 You are lost
+        404 Page Not Found
     </x-slot>
     <div class="container">
         <div class="row justify-content-center">
@@ -13,4 +13,4 @@
             </div>
         </div>
     </div>
-</x-main-layout>
+</x-error-layout>

@@ -1,4 +1,4 @@
-<x-main-layout>
+<x-error-layout>
     <x-slot name="title">
         403 You are lost
     </x-slot>
@@ -12,4 +12,4 @@
             </div>
         </div>
     </div>
-</x-main-layout>
+</x-error-layout>
