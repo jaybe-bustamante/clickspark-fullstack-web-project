@@ -18,7 +18,7 @@ class ProfileController extends Controller
     {
         $totalEarnings = Payment::sum('amount');
         $projects = Project::where('user_id', auth()->id())->get();
-        return view('profile.dashboard', compact('projects'), compact('totalEarnings'));
+        return view('dashboard', compact('projects'), compact('totalEarnings'));
     }
 
     public function adminDashboard()

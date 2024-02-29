@@ -7,6 +7,10 @@
         <div class="alert alert-success">
             {{ session('success') }}
         </div>
+        @elseif (session('danger'))
+        <div class="alert alert-danger">
+            {{ session('danger') }}
+        </div>
         @endif
     </x-slot>
 
@@ -51,6 +55,9 @@
                             Please enter your message.
                         </div>
                     </div>
+                    <!-- Google Recaptcha -->
+                    <div class="g-recaptcha my-2" data-sitekey={{config('services.recaptcha.key')}}></div>
+
                     <button type="submit" class="btn btn-primary button-1">Submit</button>
                 </form>
             </div>
